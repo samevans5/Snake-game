@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake</title>
+    <style>
+    h1 {
+    color: lightgray;
+    text-align: center;
+    }
+    #game{
+        box-shadow: 10px 10px 15px black;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        background: linear-gradient(
+            0deg,
+            rgb(255, 173, 0) 0%,
+            rgb(102, 41, 0) 60%
+        );
+    }
+    
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="h1">Snake</h1>
+        <canvas id='game'></canvas>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
